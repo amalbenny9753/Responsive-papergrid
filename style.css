@@ -1,0 +1,109 @@
+
+.log{
+    width: 115px;
+    margin-bottom: 4px;
+}
+.header-top {
+  cursor: pointer;
+  letter-spacing: 1.5px;
+  background-color: #000000;
+  height: 40px;
+  border-bottom: 1px solid rgb(44, 44, 44);
+}
+.header-top:hover{
+  background-color: #1f1e1e;
+}
+.fa-arrow-right{
+  transform-origin: left center;
+}
+.header-top:hover .fa-arrow-right {
+    transform: scaleX(1.2); 
+}
+.custom-navbar {
+    padding-top: 10px;  /* Adjust as needed */
+    padding-bottom: 15px;
+    background-color: #000000;
+    position: sticky;
+    top: 0;
+  }
+  .custom-gray {
+    color: #b7b5b5;
+    text-decoration: none; /* Removes underline by default */
+    font-size: 14px;
+  }
+  .custom-gray:hover {
+    color: white;  /* Changes text color to white */
+    text-decoration: underline; /* Adds underline on hover */
+    text-underline-offset: 3px; 
+  }
+  .custom-color{
+    color: #757474;
+    text-underline-offset: 3px; 
+  }
+  .custom-color:hover {
+    color: white;  /* Changes text color to white */
+    text-decoration: underline; /* Adds underline on hover */
+    text-underline-offset: 3px; 
+  }
+  .font{
+    font-size: 14px;
+  }
+  .font2{
+    font-size: 18px;
+    color: #757474;
+  }
+  .cutom-margin{
+    margin-left: 10px;
+    text-underline-offset: 3px;
+  }
+  .second img{
+    transition: transform 0.3s easein-out;
+  }
+  .second img:hover{
+    transform: scale(1.1);
+  }
+  .hover-zoom {
+    border: none;
+    padding: 15px 40px 15px 40px;
+    background-color: #000;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Increase size on hover */
+.hover-zoom:hover {
+    transform: scale(1.02); /* Grows 5% */
+}
+
+footer {
+    background-color: black ;
+    padding: 50px 0;
+    min-height: 50vh;
+
+}
+.policy {
+    border-top: 1px solid rgb(44, 44, 44); /* Adds a thin line above */
+    padding-top: 15px; /* Space between border and content */
+    margin-top: 20px; /* Adjust spacing if needed */
+}
+
+.policy a {
+    text-decoration: none; /* Remove default underline */
+    color: #b7b5b5;
+    font-size: 14px;
+  }
+  
+  .policy a:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px; 
+  }
+  
+  .policy a:not(:nth-child(2)):not(:last-child)::after {
+    content: ".";  /* Use a bullet point instead of a dot */
+    margin: 0 8px; /* Space between the bullet and the links */
+    color: #b7b5b5; /* Match link color */
+    font-weight: bold; /* Make it more visible */
+    text-decoration: none; /* Prevent underline */
+    display: inline-block; /* Ensures it's treated separately */
+  }
+  
